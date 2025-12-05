@@ -6,5 +6,10 @@ public class Main {
         Motor motor = new Motor("M001", "Bosch", 4, 120);
         motor.mostrarInformacion();
         motor.encenderMotor();
+
+        System.out.println("\n==== TRANSMISIÓN ====");
+        Transmision transmision = new Transmision("T001", "ZF", "Automática", 6);
+        transmision.mostrarInformacion();
+        transmision.cambiarMarcha(3);
     }
 }
