@@ -21,5 +21,10 @@ public class Main {
         Chasis chasis = new Chasis("C001", "Toyota", "Monocasco", 250.0);
         chasis.mostrarInformacion();
         chasis.calcularCargaMaxima();
+
+        System.out.println("\n==== SISTEMA DE FRENOS ====");
+        SistemaFrenos frenos = new SistemaFrenos("F001", "Brembo", true, "Discos ventilados");
+        frenos.mostrarInformacion();
+        frenos.verificarABS();
     }
 }
