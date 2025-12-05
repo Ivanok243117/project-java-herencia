@@ -2,8 +2,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("==== PRUEBA COMPONENTE BASE ====");
-        ComponenteVehicular base = new ComponenteVehicular("B000", "Genérico");
-        base.mostrarInformacion();
+        System.out.println("==== MOTOR ====");
+        Motor motor = new Motor("M001", "Bosch", 4, 120);
+        motor.mostrarInformacion();
+        motor.encenderMotor();
     }
 }
