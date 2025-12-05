@@ -16,5 +16,10 @@ public class Main {
         Neumatico neumatico = new Neumatico("N001", "Michelin", 17, 32.5);
         neumatico.mostrarInformacion();
         neumatico.verificarPresion();
+
+        System.out.println("\n==== CHASIS ====");
+        Chasis chasis = new Chasis("C001", "Toyota", "Monocasco", 250.0);
+        chasis.mostrarInformacion();
+        chasis.calcularCargaMaxima();
     }
 }
